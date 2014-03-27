@@ -201,10 +201,14 @@ Modernizr.addTest('ios',function(){return!!navigator.userAgent.match(/iPhone|iPa
 	$('.nav-primary ul.nav li a').click(function(){
 		$('.sec-content, .sec-content.home').hide();
 		$('.sec-content').scrollTop();
+		//$('.scrollable').scrollTop(0);
+		//$('.sec-content').scrollTop(-500);
+		//$('.sec-content').animate({ scrollTop: 0 }, 'slow');
 		$('.nav-primary ul.nav li a').removeClass('active');
 		$(this).addClass('active');
 		var className = $(this).attr('href').split('#')[1];
 		var showClass = '.sec-content.' + className;
+		$(showClass).scrollTop;
 		$(showClass).show();
 		// breadcrumb 
 		var pageName = $(this).find('span').text();
