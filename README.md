@@ -1,7 +1,5 @@
 # Digital Privacy Notice Challenge
 
-![Skyscraper Studios icon](http://skyscraperstudios.com/images/logo.png)
-
 ## Overview
 
 Extremely readable and visually-appeaing, this is a web-based model notice of privacy practices built using HTML, CSS, and jQuery. This solution adapts the content of the paper-based notice to the web while retaining the overall design aesthetics already established by the paper version. It is responsive (i.e. it works across various screen resolutions and devices) and standards-compliant.
