@@ -64,7 +64,7 @@ This web-based solution requires the following files (provided) to run properly:
 
 #### Entering custom content
 
-A total of **7** sections **(Instructions A-G)** might require you to enter custom content pertaining to your organization. These sections are clearly marked with comments in each HTML file. Each one begins with this:
+A total of **7** sections **(Instructions A-G)** and the **LOGO.PNG** might require you to enter custom content pertaining to your organization. These sections are clearly marked with comments in each HTML file. Each one begins with this:
 
 	<!-- **ACTION:
 	
